@@ -17,9 +17,9 @@ Gem::Specification.new do |s|
   s.test_files = Dir["spec/**/*"]
 
   s.add_dependency 'hashie', '>= 1.1.0'
-  s.add_dependency 'faraday', '~> 0.7.4'
-  s.add_dependency 'faraday_middleware', '~> 0.7.0'
-  s.add_dependency 'multi_json', '~> 1.0.0'
+  s.add_dependency 'faraday'#, '~> 0.8.1'
+  s.add_dependency 'faraday_middleware'#, '~> 0.7.0'
+  s.add_dependency 'multi_json'#, '~> 1.3.6'
 
   s.add_development_dependency "rdiscount", "~> 1.6.8"
   s.add_development_dependency "rspec",     "~> 2.7.0"
@@ -28,4 +28,3 @@ Gem::Specification.new do |s|
   s.add_development_dependency "vcr",       "~> 2.1.0"
   s.add_development_dependency "yard",      "~> 0.7.3"
 end
-
